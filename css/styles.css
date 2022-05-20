@@ -1,22 +1,57 @@
-/*Лого */
-
 /*Корекция дефолтных настроек линок */
 .link {
     text-decoration: none;
+    font-style: normal;
+}
+link:active {
+    color: red;
+}
+/*Корекция дефолтных настроек списков */
+li
+{
+    list-style-type: none;
 }
 
 /*Основные: цвет и текст */
 body {
-
     font-family: Roboto, sans-serif;
+    color: #212121;
 } 
 
-h2 {
+/*Лого */
+.logo {
+    Font family: Raleway;
+    Font style: Bold;
+    Font size: 26px;
+    Line height: 31px;
+    Line height: 100%;
+}
 
+ /*Навигация */
+.site-nav .link
+{
+Font family: Roboto ;
+Font style: Medium;
+Font size: 16px;
+Line height: 26px;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+h2 {
+    font-size: 18px;
 }
 
 .text {
-    font-style: italic;
+    Font family: Roboto ;
+    Font style: Regular ;
+    Font size: 16px ;
+    Line height: 30px ;
+    Line height: 160% ;
+    color: #757575;
 }
 
 
