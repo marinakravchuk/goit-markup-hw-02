@@ -1,3 +1,28 @@
+/*Лого */
+
+/*Корекция дефолтных настроек линок */
 .link {
     text-decoration: none;
 }
+
+/*Основные: цвет и текст */
+body {
+
+    font-family: Roboto, sans-serif;
+} 
+
+h2 {
+
+}
+
+.text {
+    font-style: italic;
+}
+
+
+/*Контактные линки */
+.contact-links .link:hover,
+.contact-links .link:focus {
+    color: #2196F3;
+}
+
