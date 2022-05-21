@@ -23,8 +23,8 @@ body {
     Font family: Raleway;
     Font style: Bold;
     Font size: 26px;
-    Line height: 31px;
-    Line height: 100%;
+    Line height: 1.2;
+
 }
 
  /*Навигация */
@@ -33,7 +33,7 @@ body {
 Font family: Roboto ;
 Font style: Medium;
 Font size: 16px;
-Line height: 26px;
+Line height: 1.6;
 }
 
 button {
@@ -49,8 +49,7 @@ h2 {
     Font family: Roboto ;
     Font style: Regular ;
     Font size: 16px ;
-    Line height: 30px ;
-    Line height: 160% ;
+    Line height: 1.8 ;
     color: #757575;
 }
 
