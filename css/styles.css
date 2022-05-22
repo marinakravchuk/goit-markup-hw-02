@@ -40,16 +40,28 @@ button {
     cursor: pointer;
 }
 
-
+/*Заголовки */ 
 h2 {
     font-size: 18px;
 }
 
+h3 {
+font-size: 16px
+}
+
+/*заголовок на странице "Главная"*/
+.list>h3 {
+font-family: Roboto ;
+Fontstyle: Bold;
+Font size: 14px;
+}
+
+/* Текст */
 .text {
-    Font family: Roboto ;
-    Font style: Regular ;
-    Font size: 16px ;
-    Line height: 1.8 ;
+    font-size: Roboto ;
+    font-size: Regular ;
+    font-size: 16px ;
+    line-height: 1.8 ;
     color: #757575;
 }
 
