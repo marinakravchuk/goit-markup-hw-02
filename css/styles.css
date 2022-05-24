@@ -1,5 +1,7 @@
 /*Корекция дефолтных настроек линок */
-.link {
+.link,
+.site-nav-link
+{
     text-decoration: none;
     font-style: normal;
 }
@@ -46,7 +48,7 @@ body {
 }
 
  /*Навигация */
-.site-nav .link
+.site-nav-link 
 {
 font-family: Roboto ;
 font-style: Medium;
@@ -54,8 +56,41 @@ font-size: 16px;
 line-height: 1.6;
 }
 
+.site-nav-link:hover ,
+.site-nav-link:focus{
+color:#2196F3 ;
+} 
+
+/* Кнопки */
+:root {
+    --bnt-color-hover: #F5F4FA;
+    --btn-color-hb:#2196F3;
+    --btn-color-text: #212121;
+    }
+
+
 button {
 cursor: pointer;
+border: none;
+}
+
+.site-nav .site-nav-list:hover,
+.site-nav .site-nav-list:focus {
+        color: var(--bnt-color-hover);
+        background:var(--btn-color-hb);
+} 
+
+.site-nav .site-nav-list {
+
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--btn-color-text);
+    background: var(--bnt-color-hover);
 }
 
 /*Заголовки */ 
