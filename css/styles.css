@@ -14,35 +14,53 @@ li
 
 /*Основные: цвет и текст */
 body {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #212121;
 } 
 
 /*Лого */
+.logo-color {
+        color: #2196F3;
+        text-decoration: none;
+        font-family: Raleway;
+        font-style: Bold;
+        font-size: 26px;
+        line-height: 1.2;
+}
 .logo {
-    Font family: Raleway;
-    Font style: Bold;
-    Font size: 26px;
-    Line height: 1.2;
+    text-decoration: none;
+    font-family: Raleway;
+    font-style: Bold;
+    font-size: 26px;
+    line-height: 1.2;
 
+}
+
+.bottom-logo-color {
+            color: #ffffff;
+            text-decoration: none;
+            font-family: Raleway;
+            font-style: Bold;
+            font-size: 26px;
+            line-height: 1.2;
 }
 
  /*Навигация */
 .site-nav .link
 {
-Font family: Roboto ;
-Font style: Medium;
-Font size: 16px;
-Line height: 1.6;
+font-family: Roboto ;
+font-style: Medium;
+font-size: 16px;
+line-height: 1.6;
 }
 
 button {
-    cursor: pointer;
+cursor: pointer;
 }
 
 /*Заголовки */ 
 h2 {
-    font-size: 18px;
+font-size: 18px;
 }
 
 h3 {
@@ -52,8 +70,8 @@ font-size: 16px
 /*заголовок на странице "Главная"*/
 .list>h3 {
 font-family: Roboto ;
-Fontstyle: Bold;
-Font size: 14px;
+font-style: Bold;
+font-size: 14px;
 }
 
 /* Текст */
