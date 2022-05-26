@@ -20,19 +20,20 @@ body {
     color: #212121;
 } 
 
+
 /*Лого */
 .logo-color {
         color: #2196F3;
         text-decoration: none;
         font-family: Raleway;
-        font-style: Bold;
+        font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
 }
 .logo {
     text-decoration: none;
     font-family: Raleway;
-    font-style: Bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
 
@@ -41,19 +42,20 @@ body {
 .bottom-logo-color {
             color: #ffffff;
             text-decoration: none;
-            font-family: Raleway;
-            font-style: Bold;
+            font-weight: 700;
             font-size: 26px;
             line-height: 1.2;
 }
 
+
+
  /*Навигация */
 .site-nav-link 
 {
-font-family: Roboto ;
-font-style: Medium;
-font-size: 16px;
-line-height: 1.6;
+font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .site-nav-link:hover ,
@@ -61,17 +63,33 @@ line-height: 1.6;
 color:#2196F3 ;
 } 
 
+/*Контактные линки */
+.contact-links .link:hover,
+.contact-links .link:focus {
+    color: #2196F3;
+}
+
 /* Кнопки */
 :root {
     --bnt-color-hover: #F5F4FA;
     --btn-color-hb:#2196F3;
     --btn-color-text: #212121;
+    --text-color: #757575;
     }
 
 
 button {
 cursor: pointer;
 border: none;
+}
+
+.hero-botton {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    color:  #FFFFFF;;
+    background: #2196F3;
 }
 
 .site-nav .site-nav-list:hover,
@@ -83,45 +101,67 @@ border: none;
 .site-nav .site-nav-list {
 
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--btn-color-text);
-    background: var(--bnt-color-hover);
+    font-size: 14px;
+    line-height: 1.14;
+    color:#212121;
+    background: #F5F4FA;
 }
 
 /*Заголовки */ 
+h1 {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
 h2 {
-font-size: 18px;
+font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height:1.16;
 }
 
 h3 {
-font-size: 16px
+font-weight: 500;
+font-size: 16px;
+}
+/*Страница "Портфолио"*/
+.feature-list .title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+}
+.feature-list.text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 2.25;
+    color: #757575;
 }
 
-/*заголовок на странице "Главная"*/
+/*Страница "Главная"*/
 .list>h3 {
-font-family: Roboto ;
-font-style: Bold;
 font-size: 14px;
 }
 
 /* Текст */
-.text {
-    font-size: Roboto ;
-    font-size: Regular ;
-    font-size: 16px ;
-    line-height: 1.8 ;
+.addres-links,
+.list .text,
+.about-us .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px ;
+    line-height: 1.14 ;
     color: #757575;
 }
 
-
-/*Контактные линки */
-.contact-links .link:hover,
-.contact-links .link:focus {
-    color: #2196F3;
+.list .list-benefits {
+    font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
 }
+
 
