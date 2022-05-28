@@ -67,6 +67,14 @@ font-style: normal;
 .contact-links .link:focus {
     color: #2196F3;
 }
+.header-contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
 
 /* Кнопки */
 :root {
