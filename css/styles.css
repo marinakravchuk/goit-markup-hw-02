@@ -1,10 +1,20 @@
 /*Корекция дефолтных настроек линок */
-.link,
-.site-nav-link
-{
+.site-nav-link{
+        text-decoration: none;
+        font-style: normal;
+    }
+
+
+.e-link {
+        text-decoration: none;
+        font-style: normal;
+    }
+
+.ph-link {
     text-decoration: none;
     font-style: normal;
 }
+
 link:active {
     color: red;
 }
@@ -20,15 +30,14 @@ body {
     color: #212121;
 } 
 
-
-/*Лого */
+/*Header-Лого*/
 .logo-color {
-        color: #2196F3;
-        text-decoration: none;
-        font-family: Raleway;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.2;
+    color: #2196F3;
+    text-decoration: none;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
 }
 .logo {
     text-decoration: none;
@@ -39,18 +48,8 @@ body {
 
 }
 
-.bottom-logo-color {
-            color: #ffffff;
-            text-decoration: none;
-            font-weight: 700;
-            font-size: 26px;
-            line-height: 1.2;
-}
-
-
-
- /*Навигация */
-.site-nav-link 
+/*Header-Навигация */
+.site-nav-bnt
 {
 font-style: normal;
     font-weight: 500;
@@ -58,12 +57,12 @@ font-style: normal;
     line-height: 1.14;
 }
 
-.site-nav-link:hover ,
-.site-nav-link:focus{
-color:#2196F3 ;
+.site-nav-bnt:hover ,
+.site-nav-bnt:focus{
+    color:#2196F3 ;
 } 
 
-/*Контактные линки */
+/*Header-Контактные линки */
 .contact-links .link:hover,
 .contact-links .link:focus {
     color: #2196F3;
@@ -77,10 +76,10 @@ color:#2196F3 ;
     --text-color: #757575;
     }
 
-
+/* Кнопки-Главная */
 button {
-cursor: pointer;
-border: none;
+    cursor: pointer;
+    border: none;
 }
 
 .hero-botton {
@@ -92,63 +91,80 @@ border: none;
     background: #2196F3;
 }
 
-.site-nav .site-nav-list:hover,
-.site-nav .site-nav-list:focus {
-        color: var(--bnt-color-hover);
-        background:var(--btn-color-hb);
+.site-nav .site-nav-btn:hover,
+.site-nav .site-nav-btn:focus {
+    color: var(--bnt-color-hover);
+    background: var(--btn-color-hb);
 } 
 
-.site-nav .site-nav-list {
-
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color:#212121;
-    background: #F5F4FA;
-}
 
 /*Заголовки */ 
-h1 {
+.hero-titel {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-transform: uppercase;
 }
-h2 {
-font-style: normal;
+.about-us-title {
+    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height:1.16;
 }
 
-h3 {
-font-weight: 500;
-font-size: 16px;
+/*Страница "Главная"*/
+
+.about-us .name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
+
+.about-us .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+}
+
 /*Страница "Портфолио"*/
-.feature-list .title {
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
+.site-nav .site-nav-btn {
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+    background: #F5F4FA;
 }
-.feature-list.text {
+
+.feature-list .title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.feature-list .text {
     font-style: normal;
     font-size: 16px;
     line-height: 2.25;
     color: #757575;
 }
 
-/*Страница "Главная"*/
-.list>h3 {
-font-size: 14px;
+.benefit .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 /* Текст */
-.addres-links,
-.list .text,
-.about-us .text {
+.contact-link,
+.benefit .text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px ;
@@ -156,12 +172,27 @@ font-size: 14px;
     color: #757575;
 }
 
-.list .list-benefits {
+/*Подвал*/
+.bottom-logo-color {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+}
+.e-link,
+.ph-link  {
     font-style: normal;
-        font-weight: 700;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+    }
+
+.addres-link {
+        font-style: normal;
+        font-weight: 400;
         font-size: 14px;
         line-height: 1.14;
-        text-transform: uppercase;
+        color: #ffffff;
 }
-
-
