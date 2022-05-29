@@ -1,8 +1,17 @@
 /*Корекция дефолтных настроек линок */
-.site-nav-link{
-        text-decoration: none;
-        font-style: normal;
-    }
+.site-nav-link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    color: #212121
+}
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+    color: #2196F3;
+}
 
 
 .e-link {
