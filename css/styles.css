@@ -61,12 +61,9 @@ line-height: 1.14;
 .contact-links {
     display: flex;
     align-items: center;
-}
-.contact-links:visited,
-.site-nav-link:visited {
-    text-decora: none;
 
 }
+
 
 /*Header-Навигация */
 
@@ -78,13 +75,11 @@ line-height: 1.14;
 
     text-decoration: none;
 
-    color: #212121; 
-
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    color: #212121;
 
 }
 
@@ -100,6 +95,8 @@ line-height: 1.14;
 
 .site-nav .item {
     margin-right: 50px;
+    
+    
 }
 
 .site-nav .item:last-child {
