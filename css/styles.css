@@ -14,11 +14,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-
-}
-
-.contact-links:visited {
-    text-decoration: none;
+    color: #000000;
 
 }
 
@@ -87,7 +83,8 @@ line-height: 1.14;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1, 14;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 
 }
 
