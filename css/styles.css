@@ -1,6 +1,17 @@
+
+/* Кнопки */
+:root {
+    --bnt-color-hover: #F5F4FA;
+    --btn-color-hb: #2196F3;
+    --btn-color-text: #212121;
+    --text-color: #757575;
+    --default-white: #ffffff;
+
+}
+
 /*Header-Лого*/
 .logo-color {
-    color: #2196F3;
+    color: var(--btn-color-hb);
     text-decoration: none;
     font-family: Raleway;
     font-weight: 700;
@@ -25,7 +36,7 @@
 .header-contact-link {
 
 
-    color: #757575;
+    color: var(--text-color);
 
 font-style: normal;
 font-weight: 500;
@@ -44,12 +55,12 @@ letter-spacing: 0.02em;
 
 .header-contact-link .e-link:hover,
 .header-contact-link .e-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 .header-contact-link .ph-link:hover,
 .header-contact-link .ph-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 /*Утилиты*/
@@ -80,13 +91,13 @@ letter-spacing: 0.02em;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--btn-color-text);
 
 }
 
 .site-nav-link:hover,
 .site-nav-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 
@@ -98,19 +109,13 @@ li {
 /*Основные: цвет и текст */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--btn-color-text);
 }
 
 
 
 
-/* Кнопки */
-:root {
-    --bnt-color-hover: #F5F4FA;
-    --btn-color-hb: #2196F3;
-    --btn-color-text: #212121;
-    --text-color: #757575;
-}
+
 
 /* Кнопки-Главная */
 button {
@@ -122,7 +127,7 @@ button {
     width: 200px;
     height: 50px;
 
-    background: #2196F3;
+    background: var(--btn-color-hb);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
@@ -149,8 +154,8 @@ button {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--btn-color-text);
+    background: var(--bnt-color-hover);
 }
 
 .site-all-bnt:hover,
@@ -171,8 +176,8 @@ height: 38px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--btn-color-text);
+    background: var(--bnt-color-hover);
 }
 
 .site-web-bnt:hover,
@@ -192,8 +197,8 @@ width: 145px;
     font-size: 14px;
     line-height: 1.14;
         letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--btn-color-text);
+    background: var(--bnt-color-hover);
 }
 
 .site-app-bnt:hover,
@@ -214,8 +219,8 @@ height: 38px;
     font-size: 14px;
     line-height: 1.14;
         letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color: var(--btn-color-text);
+    background:var(--bnt-color-hover);
 }
 
 .site-dzn-bnt:hover,
@@ -236,8 +241,8 @@ width: 130px;
     font-size: 14px;
     line-height: 1.14;
         letter-spacing: 0.03em;
-    color: #212121;
-    background: #F5F4FA;
+    color:var(--btn-color-text);
+    background: var(--bnt-color-hover);
 }
 
 .site-mrc-bnt:hover,
@@ -285,7 +290,7 @@ width: 130px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
     
 }
 
@@ -321,7 +326,7 @@ width: 130px;
     font-size: 16px;
     line-height: 2.25;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color); 
 }
 
 .benefit .title {
@@ -353,7 +358,7 @@ width: 130px;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--text-color);
 }
 
 /*Подвал*/
@@ -369,28 +374,28 @@ width: 130px;
 .e-link,
 .ph-link {
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: color: rgba(255, 255, 255, 0.6);
 
 
 }
 
 .contact-link .e-link:hover,
 .contact-link .e-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 .contact-link .ph-link:hover,
 .contact-link .ph-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 .contact-link .addres-link:hover,
 .contact-link .addres-link:focus {
-    color: #2196F3;
+    color: var(--btn-color-hb);
 }
 
 .addres-link {
@@ -398,7 +403,7 @@ width: 130px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.14;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #ffffff;
 
